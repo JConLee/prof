@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Portfolio</h1>
+<h1>Flower Weasel </h1>
 
 <table>
   <thead>
@@ -11,6 +11,11 @@
 
   <tbody>
     <% @posts.each do |post| %>
+    <tr>
+
+      <td> <%= post.title %> </td>
+
+    </tr>
       <tr>
         <td><%= link_to 'Show', post %></td>
       </tr>
@@ -22,3 +27,8 @@
 
 
 <br>
+
+
+
+
+
