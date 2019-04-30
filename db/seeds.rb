@@ -12,13 +12,14 @@
 Post.destroy_all
 
 
-post_1 = Post.new(title: 'Social Pantry',
+Post.new(title: 'Social Pantry',
 description: 'Tropical leaves with soft whites and delicate pinks for a rustic feast',
-photo: Rails.root + ("app/assets/images/anemone.png") )
-post_1.save
+photo:'IMG_3577_uipmvx')
 
 
-Post.create!(title: 'Glamour', description: 'Pop inspired colour for Glamour beauty breakfasts')
+
+
+Post.create!(title: 'Glamour', description: 'Pop inspired colour for Glamour beauty breakfasts', photo: 'https://res.cloudinary.com/dw2cpqgzu/image/upload/v1556619557/Flower%20Weasel/DSCN2853_rxwzxf.jpg')
 
 
 Post.create!(title: 'B The Agency', description: 'Etherial woodland for Christmas in July showcase')
